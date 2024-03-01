@@ -40,7 +40,7 @@ export default function Home() {
     <div id="home-root">
       <Head>
         <title>
-          {"Abhimanyu Rajeesh – software developer, electrical engineer, creator"}
+          {"Abhimanyu Rajeesh"}
         </title>
       </Head>
       <NavigationBar
@@ -74,7 +74,7 @@ export default function Home() {
               Abhimanyu Rajeesh
             </h1>
             <p className="text-gray-900 font-bold dark:text-gray-200 my-10 text-lg xl:text-xl leading-tight">
-              Software Developer . Photographer . Graphic Designer . Creator
+              Software Developer . Graphic Designer . Photographer
             </p>
             <p className="text-gray-700 text-base md:text-md dark:text-gray-400 mb-4 leading-relaxed max-w-prose">
               {`Passionate Computer Science Student, graphic designer, photographer, and technology enthusiast studying in Bengaluru, India. With a strong foundation in both technical and creative fields, I strive to blend innovation with aesthetics to bring ideas to life.`}
@@ -122,7 +122,7 @@ export default function Home() {
               <ProjectCard key={index} project={project} />
             ))}
           </div>
-          {allProjects.length > 4 && (
+          {allProjects.length > 2 && (
             <div ref={projectsToggleButtonRef} className="flex justify-center">
               <SecondaryButton
                 Icon={showAllProjects ? BsChevronUp : BsChevronDown}
