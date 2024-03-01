@@ -23,7 +23,8 @@ export function SecondaryButton({
       className="btn-base group text-white hover:text-primary border border-gray-600 hover:border-primary"
       onClick={onClick}
     >
-      <span className="text-white">{children}</span>
+          <span className="
+-white">{children}</span>
       {Icon && (
         <Icon
           className={
