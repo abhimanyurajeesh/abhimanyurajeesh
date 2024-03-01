@@ -74,12 +74,10 @@ export default function Home() {
               Abhimanyu Rajeesh
             </h1>
             <p className="text-gray-900 font-bold dark:text-gray-200 my-10 text-lg xl:text-xl leading-tight">
-              Software Developer . Electrical Engineer . Creator
+              Software Developer . Photographer . Graphic Designer . Creator
             </p>
             <p className="text-gray-700 text-base md:text-md dark:text-gray-400 mb-4 leading-relaxed max-w-prose">
-              {`Passionate about creating scalable and distributed systems for 
-              the power ⚡ grid and contributing to open source digital public 
-              goods.`}
+              {`Passionate Computer Science Student, graphic designer, photographer, and technology enthusiast studying in Bengaluru, India. With a strong foundation in both technical and creative fields, I strive to blend innovation with aesthetics to bring ideas to life.`}
             </p>
             <div className="flex flex-wrap items-start gap-4 pb-24 lg:pb-0 mt-8">
               <PrimaryButton
