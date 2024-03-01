@@ -43,7 +43,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0d82dc;
+  background: #0f76c5;
 }
 
 .btn-base {
@@ -68,7 +68,7 @@ body {
 
 html {
   scroll-behavior: smooth;
-  /* scrollbar-color: #0d82dc transparent; */
+  /* scrollbar-color: #0f76c5 transparent; */
 }
 
 .nav-primary .sectionlink {
@@ -97,7 +97,7 @@ h2 small::after {
 
 .link-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#0f76c5, #0d82dc);
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#0f76c5, #0f76c5);
   background-size: 0 1px;
   background-position: 0 100%;
   background-repeat: no-repeat;
