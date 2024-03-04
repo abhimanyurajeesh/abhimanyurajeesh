@@ -61,7 +61,7 @@ export default function ProjectCard({ project, highlight = false }) {
             ))}
           </div>
         </div>
-        <p className="mt-4 leading-relaxed text-gray-600 dark:text-gray-300">
+        <p className="mt-4 leading-relaxed text-gray-600 dark:text-gray-300 class:text-justify">
           {description}
         </p>
         <div className="mt-4 flex flex-wrap gap-2 text-gray-600 dark:text-gray-400 cursor-default">
