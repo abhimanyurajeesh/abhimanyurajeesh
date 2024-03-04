@@ -40,7 +40,7 @@ export default function Home() {
     <div id="home-root">
       <Head>
         <title>
-          {"Abhimanyu Rajeesh"}
+          {"Abhimanyu Rajeesh - Portfolio"}
         </title>
       </Head>
       <NavigationBar
