@@ -21,10 +21,10 @@ export default function Footer(props) {
           </h2>
           <div className="flex flex-wrap md:justify-center items-center gap-8 mt-6">
             <GitHub username="abhimanyurajeesh" />
+            <LinkedIn username="abhimanyurajeesh" />
             <Instagram username="abhimanyu_rajeesh" />
             <Email mailId="abhimanyurajeesh@gmail.com" />
-            <LinkedIn username="abhimanyurajeesh" />
-            
+                      
           </div>
         </section>
       </div>
