@@ -26,14 +26,14 @@ export default function AboutCard({ about }) {
             <GoLinkExternal className="text-primary animate-pulse lg:text-xl" />
           )}
         </div>
-        <span className="uppercase text-xs lg:text-sm tracking-wider">
-          {subtitle}
-        </span>
         {description && (
           <span className="text-gray-800 dark:text-gray-400">
             {description}
           </span>
         )}
+        <span className="uppercase text-xs lg:text-sm tracking-wider">
+          {subtitle}
+        </span>
       </div>
     </li>
   );
