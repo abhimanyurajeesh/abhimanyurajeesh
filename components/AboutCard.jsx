@@ -1,7 +1,7 @@
 import { GoLinkExternal } from "react-icons/go";
 
 export default function AboutCard({ about }) {
-  const { timeline, icon, title, subtitle, description, link, now } = about;
+  const { timeline, icon, title, description, subtitle, link, now } = about;
 
   const child = (
     <li className="group flex items-start hover:dark:text-white lg:p-4 rounded-lg transition-all ease-out text-gray-800 dark:text-gray-400 text-base lg:hover:bg-opacity-75 lg:hover:bg-primary-900">
