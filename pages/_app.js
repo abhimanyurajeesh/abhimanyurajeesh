@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta
           name="description"
-          content="Passionate about creating scalable and distributed systems for the power ⚡ grid and contributing to open source digital public goods."
+          content="Software Developer . Graphic Designer . Photographer"
         />
         <meta name="theme-color" content="#000000" />
       </Head>
