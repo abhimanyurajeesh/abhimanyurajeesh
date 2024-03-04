@@ -27,7 +27,7 @@ export default function AboutCard({ about }) {
           )}
         </div>
         {description && (
-          <span className="text-gray-800 dark:text-gray-400">
+          <span className="text-gray-600 dark:text-gray-400">
             {description}
           </span>
         )}
