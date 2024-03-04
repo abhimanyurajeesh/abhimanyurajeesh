@@ -27,9 +27,11 @@ export default function AboutCard({ about }) {
           )}
         </div>
         {description && (
+         <small>
           <span className="text-gray-600 dark:text-gray-400">
             {description}
           </span>
+           </small>
         )}
         <span className="uppercase text-xs lg:text-sm tracking-wider">
           {subtitle}
