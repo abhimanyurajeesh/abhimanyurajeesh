@@ -122,7 +122,7 @@ export default function Home() {
               <ProjectCard key={index} project={project} />
             ))}
           </div>
-          {allProjects.length > 3 && (
+          {allProjects.length > 4 && (
             <div ref={projectsToggleButtonRef} className="flex justify-center">
               <SecondaryButton
                 Icon={showAllProjects ? BsChevronUp : BsChevronDown}
