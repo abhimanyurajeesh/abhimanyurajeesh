@@ -1,1 +1,1 @@
-Just a web side portfolio 
+Just a web portfolio 
